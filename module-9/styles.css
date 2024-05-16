@@ -1,6 +1,24 @@
- 
+/* header styles */
+header {
+  background-color: rgba(255, 143, 14, 0.11);
+  padding: 50px 240px;
+}
+li > a {
+  text-decoration: none;
+  color: #424242;
+}
 
-
- li > a{
-    text-decoration: none;
- }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
